@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { share } from 'rxjs/operators';
+import { share } from 'rxjs';
 
 import * as io from 'socket.io-client';
 
