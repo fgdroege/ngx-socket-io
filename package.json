@@ -1,7 +1,7 @@
 {
-  "name": "ngx-socket-io",
-  "version": "3.5.0",
-  "description": "Socket.IO module for Angular",
+  "name": "ngx-socket-io-15",
+  "version": "3.6.1",
+  "description": "Socket.IO module for Angular 15+. Fork of ngx-socket-io",
   "main": "index.ts",
   "scripts": {
     "build": "ng-packagr",
@@ -28,26 +28,26 @@
     "reflect-metadata": "^0.1.10",
     "socket.io": "^2.2.0",
     "socket.io-client": "^2.2.0",
-    "zone.js": "~0.12.0"
+    "zone.js": "~0.13.0"
   },
   "peerDependencies": {
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0",
+    "@angular/common": "^15.0.0 || ^16.0.0",
+    "@angular/core": "^15.0.0 || ^16.0.0",
     "rxjs": "~7.5.0"
   },
   "devDependencies": {
-    "@angular/compiler": "^15.0.0",
-    "@angular/compiler-cli": "^15.0.0",
-    "@angular/core": "^15.0.0",
+    "@angular/compiler": "^16.0.0",
+    "@angular/compiler-cli": "^16.0.0",
+    "@angular/core": "^16.0.0",
     "@types/node": "^16.0.0",
     "@types/socket.io": "^2.1.2",
     "@types/socket.io-client": "^1.4.32",
     "husky": "^6.0.0",
-    "ng-packagr": "^15.0.0",
+    "ng-packagr": "^16.0.0",
     "prettier": "^2.2.1",
     "rxjs": "^7.5.0",
     "server-destroy": "^1.0.1",
     "tslint": "^5.18.0",
-    "typescript": "^4.9.0"
+    "typescript": "^5.0.0"
   }
 }
